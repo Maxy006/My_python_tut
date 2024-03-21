@@ -110,7 +110,7 @@ For a visual representation of the commit history, we can utilize “git log –
 This option presents the commit-graph, showcasing the branching and merging of commits
 
 
-14. git merge
+11. git merge
 Usage: git merge [another-file-name]
 
 This command will combine multiple sequences of commits into one unified history. 
@@ -118,14 +118,14 @@ In the most frequent use cases, git merge is used to combine two branches.
 The git merge command takes two commit pointers, usually the branch tips, and finds a common base commit between them. 
 Once it finds a common base commit, it will create a commit sequence.
 
-16. git fetch
+12. git fetch
 Usage: git fetch
 
 When we use the command git fetch, Git gathers any commit from the target branch that does not exist 
 in our current branch and stores it in our local repository. 
 However, it does not merge it with our current branch.
 
-18. git pull
+13. git pull
 Usage: git pull origin master
 
 The git pull command first runs ‘git fetch’ which downloads the content from 
